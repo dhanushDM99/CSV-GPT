@@ -24,7 +24,7 @@ ConfigParser==5.3.0
 contextlib2==21.6.0
 cryptography==40.0.2
 cx_Oracle==8.3.0
-Cython==0.29.33
+Cython==3.0.8
 datasets==2.12.0
 disco==1.40.4
 dl==0.1.0
