@@ -4,3 +4,4 @@ matplotlib
 langchain_experimental
 langchain_openai
 langchain
+dotenv
