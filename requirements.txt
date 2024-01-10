@@ -5,7 +5,8 @@ apify_client==1.1.1
 arize==7.0.1
 asynctest==0.13.0
 atlassian==0.0.0
-azure_storage==0.37.0
+#azure_storage==0.37.0
+azure-storage-blob==12.9.0
 banana_dev==4.0.2
 beautifulsoup4==4.12.2
 bilibili_api==9.1.0
