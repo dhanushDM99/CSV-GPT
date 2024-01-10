@@ -42,7 +42,6 @@ def main():
         
         column STATUS : represents  whether the order is Shipped , Cancelled , Resolved , On Hold ,In Process.
         column QTR_ID : represents the ID of the quarter in which order took place like quarter 1 or 2 or 3 or 4 in a year . 
-        column PRODUCTLINE : shows the product which has been ordered like Classic Cars , Vintage Cars , Motorcycles , Planes , Trucks and Buses
         column MSRP : MSRP stands for Manufacturer's Suggested Retail Price .
 
         and the remaining columns has their usual meaning .When a question is asked please assume yourself 
