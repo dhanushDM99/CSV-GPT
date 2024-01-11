@@ -38,13 +38,7 @@ def main():
         # other data sets and projects may require different prompts 
         # and its also possible to write generalised prompt fo projects similar to this..
 
-        prompt = """The following lines describe the details of the given csv document,with the columns  described as 
-        
-        column STATUS : represents  whether the order is Shipped , Cancelled , Resolved , On Hold ,In Process.
-        column QTR_ID : represents the ID of the quarter in which order took place like quarter 1 or 2 or 3 or 4 in a year . 
-        column MSRP : MSRP stands for Manufacturer's Suggested Retail Price .
-
-        and the remaining columns has their usual meaning .When a question is asked please assume yourself 
+        prompt = """ When a question is asked please assume yourself ,
         as a data scientist which means you need to use relevant mathematical tools , skills , techniques
         to answer asked queries and also should be able to correctly perform questions like aggregation, pivot 
         table like queries and etc….
@@ -59,9 +53,6 @@ def main():
         if user_question is not None and user_question != "":
                 with st.spinner(text="Thinking..."):
                     st.write(agent.run(final_question))
-
-
-
 
 
 
