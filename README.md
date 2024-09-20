@@ -1,6 +1,4 @@
-# The readme file is stii being updated ..( )
-
-A chat bot like application builtvby leveraging LLM openaAI API key for chatting with any uploaded csv documents
+A chat bot like application built by leveraging LLM (openaAI) for chatting with any uploaded csv documents.
 
 
 ## Installation
